@@ -2,8 +2,21 @@ Package: tidyprint
 Title: Custom Print Methods for SummarizedExperiment
 Version: 1.1.1
 Depends: R (>= 4.4.0)
-Authors@R: 
-    person("Chen", "Zhan", , "chen.zhan@adelaide.edu.au", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-4794-8339"))
+Authors@R:
+    c(
+        person(
+            "Chen", "Zhan",
+            email = "zhanchen2603@icloud.com",
+            role = "aut",
+            comment = c(ORCID = "0000-0002-4794-8339")
+        ),
+        person(
+            "Stefano", "Mangiola",
+            email = "mangiolastefano@gmail.com",
+            role = "cre",
+            comment = c(ORCID = "0000-0001-7474-836X")
+        )
+    )
 Description: Provides customised print methods for 'SummarizedExperiment' objects
     to enhance readability and usability within a tidy workflow. It offers
     consistent, tidyverse-aligned console displays, including alternative
